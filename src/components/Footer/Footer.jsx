@@ -27,19 +27,19 @@ const FooterLinks = [
 ];
 const Footer = () => {
   return (
-    <div className="bg-gray-100 dark:bg-dark mt-14 rounded-t-3xl">
+    <div className="bg-gray-200 dark:bg-dark mt-14 rounded-t-3xl">
       <section className="container">
         <div className=" grid md:grid-cols-3 py-5">
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
-              Car Rental
+            <img src="src/assets/logow.png" className="w-[200px]" alt="Logo" />
             </h1>
-            <p className="text-sm">
+            {/* <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Possimus, voluptate.{" "}
-            </p>
-            <br />
+            </p> */}
+            {/* <br /> */}
             <div className="flex items-center gap-3">
               <FaLocationArrow />
               <p>Noida, Uttar Pradesh</p>

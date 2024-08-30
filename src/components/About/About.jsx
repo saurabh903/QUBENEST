@@ -1,10 +1,13 @@
 import React from "react";
-import CarPng from "../../assets/view.png";
+import CarPng from "../../assets/pg.jpg";
 
 const About = () => {
   return (
-    <div className="dark:bg-dark bg-slate-100 sm:min-h-[600px] sm:grid sm:place-items-center duration-300">
-      <div className="container">
+    <div className="relative dark:bg-dark bg-slate-100 sm:min-h-[600px] sm:grid sm:place-items-center duration-300 bg-[url('././assets/pg.jpg')] bg-cover bg-center">
+      {/* Overlay to reduce opacity */}
+      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+
+      <div className="container relative z-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center rounded">
           <div data-aos="slide-right" data-aos-duration="1500">
             <img
@@ -21,12 +24,9 @@ const About = () => {
               >
                 About us
               </h1>
-              <p data-aos="fade-up" className="leading-8 tracking-wide">
-              That's essentially our story in one sentence.
-              Crammed up hostels or cooped up PGs - not much of a choice, is it? Thats why we created Stanza Living - 
-              </p>
-              <p data-aos="fade-up">
-              a place designed by people who've been in your shoes. Understand you. And are inspired by you.
+              <p data-aos="fade-up" className="leading-8 tracking-wide text-white">
+                Our PG is the ideal choice for students, offering a perfect blend of comfort, convenience, and a study-friendly environment. 
+                With modern amenities, safe surroundings, and a supportive community, we ensure that students can focus on their studies while enjoying a home-like atmosphere.
               </p>
               <button data-aos="fade-up" className="button-outline">
                 Get Started

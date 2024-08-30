@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import carPng from "../../assets/car.png";
-import yellowCar from "../../assets/banner-car.png";
+import yellowCar from "../../assets/group.png";
 import AOS from "aos";
 
 const Hero = ({ theme }) => {
@@ -30,13 +30,12 @@ const Hero = ({ theme }) => {
             <h1
               data-aos="fade-up"
               data-aos-delay="600"
-              className="text-5xl lg:text-7xl font-semibold font-serif"
+              className="text-5xl lg:text-5xl font-semibold font-serif"
             >
-              Car Rental
+              Stay at Your Way
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              veritatis explicabo quibusdam quae reprehenderit ab{" "}
+            "More than just a place to stay, our PG is a hub of inspiration and discovery. Here, people find the perfect balance between study, rest, work and social connection."{" "}
             </p>
             <button
               data-aos="fade-up"
